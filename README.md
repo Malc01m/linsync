@@ -23,10 +23,12 @@ Run in the terminal to view any errors or warnings.
 If linsyncdwn.py fails to download a copy of the directory from the server,
 it will attempt to restore from a backup it made beforehand. If it wasn't
 able to make the backup, it would have stopped before removing the client copy. 
-The client *should* have a copy at all times by design. However...
+The client *should* have a copy at all times.
 
 ## Warning
 There's nothing currently stopping you from running the wrong script and 
 overwriting the more recent copy with an older one.
 
-Keep your own backups.
+## Permissions
+I am not accountable for anything that happens as a result of anyone else's use of these scripts.
+You have full permission to use, modify, and distribute.
