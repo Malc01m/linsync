@@ -4,6 +4,7 @@ Minimal Python scripts to sync a directory between a Linux machine and a Linux S
 ## Requirements
 - The SSH server and your client must be configured to use key authentification.
 - Your client must have Python installed.
+- These scripts were tested on machines using bash.
 
 ## Setup
 1. Create the directory to be shared in the home of your client user
