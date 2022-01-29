@@ -56,7 +56,7 @@ if (restore):
 try:
 
     localbackupdel = ["rm", "-rf", 
-    "/home/" + settings.CLIENT_USER + "/" + settings.CLIENT_USER + "tmp"]
+    "/home/" + settings.CLIENT_USER + "/" + settings.DIRECTORY_NAME + "tmp"]
 
     subprocess.run(args=localbackupdel, check=True)
 
